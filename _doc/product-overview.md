@@ -6,10 +6,11 @@
 
 ## What it is
 
-An app that ingests a recorded lecture video and returns a concise, structured
-summary — fast. The user uploads (or links) a lecture recording and gets back the
-key points, important definitions/terms, and any action items, without re-watching
-the whole thing.
+An app that takes a **YouTube lecture link** and returns a concise, structured
+summary — fast. The user pastes the link to a recorded lecture and gets back the
+key points, important definitions/terms, and the concepts most likely to appear on
+a test — without re-watching the whole thing. There is no file upload; the YouTube
+link is the way in.
 
 ## The problem it solves
 
