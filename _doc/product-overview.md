@@ -68,5 +68,4 @@ into a delivered summary in the deployed app.
 
 ## Open questions (to confirm during scoping)
 
-- Product name.
 - Typical lecture length and expected weekly volume per student (for impact projection).
