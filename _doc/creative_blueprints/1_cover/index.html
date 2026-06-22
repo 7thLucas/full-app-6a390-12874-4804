@@ -1,0 +1,33 @@
+<style>
+  .mode-landscape .sl-cover { flex-direction: row; }
+  .mode-portrait .sl-cover { flex-direction: column; }
+  .mode-portrait .sl-visual { width: 100%; min-height: 38%; }
+  .mode-landscape .sl-visual { width: 42%; height: 100%; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-cover flex w-full h-full">
+    <div class="flex flex-col justify-between flex-1 p-12">
+      <div class="flex items-center gap-2">
+        <span class="inline-block w-2.5 h-2.5 rounded-full" style="background:#4F46E5"></span>
+        <span class="text-xs font-semibold tracking-widest uppercase" style="color:#4F46E5">Lecture Video Summarizer</span>
+      </div>
+      <div>
+        <h1 class="font-extrabold leading-[1.05] text-slate-900" style="font-size:3.4rem;">
+          Lectures in.<br>Summaries out.
+        </h1>
+        <p class="mt-6 text-xl text-slate-600 max-w-xl leading-relaxed">
+          Drop in a full-length lecture recording and get the key points, terms, and
+          takeaways back — in the time it takes to grab a coffee.
+        </p>
+      </div>
+      <div class="pt-6">
+        <data-attribution />
+      </div>
+    </div>
+    <div class="sl-visual relative overflow-hidden">
+      <img class="absolute inset-0 w-full h-full object-cover"
+        src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=calm%20editorial%20illustration%20of%20a%20university%20lecture%20recording%20transforming%20into%20a%20clean%20bullet-point%20summary%2C%20indigo%20accents%2C%20soft%20light%2C%20premium%20minimal"
+        alt="Lecture turning into a summary" />
+    </div>
+  </div>
+</section>
