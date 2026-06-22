@@ -56,7 +56,8 @@ into a delivered summary in the deployed app.
 - Positioning: a fast, no-friction "paste a link, get a study summary" tool for
   students — speed and clarity are the headline.
 - Tone: clear, focused, calm, study-friendly. Not gimmicky.
-- Name: **LectureLens** — the "lens" that focuses a long lecture down to what matters.
+- Name: **Recap** — short, clear, and student-friendly; it says exactly what you get
+  from a long lecture: a fast recap of the parts worth keeping. (Confirmed at onboarding.)
 
 ## Strategic principles
 
