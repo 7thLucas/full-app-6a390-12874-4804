@@ -53,20 +53,20 @@ into a delivered summary in the deployed app.
 
 ## Positioning, brand & tone
 
-- Positioning: a fast, no-friction "lecture in, summary out" tool — speed and
-  clarity are the headline.
+- Positioning: a fast, no-friction "paste a link, get a study summary" tool for
+  students — speed and clarity are the headline.
 - Tone: clear, focused, calm, study-friendly. Not gimmicky.
 - Name: **not yet chosen** _(to be confirmed in scoping)_.
 
 ## Strategic principles
 
 - Speed is the differentiator — the summary must arrive fast and feel effortless.
-- Summaries must be useful, not a transcript dump: structure and signal over volume.
-- Keep the first run to one brilliant thing: upload a lecture, get a good summary.
+- Summaries must be useful, not a transcript dump: structure and signal over volume,
+  framed for studying (what to remember, what's likely on the test).
+- Keep the first run to one brilliant thing: paste a YouTube lecture link, get a good
+  student-ready summary.
 
 ## Open questions (to confirm during scoping)
 
-- Primary audience to optimize for first (students vs. educators).
-- Single brilliant day-one capability.
 - Product name.
-- Typical lecture length and expected weekly volume per user (for impact projection).
+- Typical lecture length and expected weekly volume per student (for impact projection).
