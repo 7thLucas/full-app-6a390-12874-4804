@@ -1,0 +1,1 @@
+Build me an app to analyze video of lecture and give the summary. In five minutes.
