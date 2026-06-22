@@ -20,15 +20,16 @@ real: hours of re-watching, missed details, and notes that never get made.
 
 ## The core promise
 
-Turn a full-length lecture recording into a readable summary in roughly the time it
-takes to grab a coffee — capturing the points worth keeping, not a transcript dump.
+Paste a YouTube lecture link and get a readable, study-ready summary back in roughly
+the time it takes to grab a coffee — capturing the points worth keeping (and what's
+likely to be on the test), not a transcript dump.
 
-## Who it's for _(assumption — to be confirmed in scoping)_
+## Who it's for
 
-- **Students** reviewing lectures for study, revision, or catch-up after a missed class.
-- **Educators / course creators** who want quick summaries of their own recorded
-  sessions to share or repurpose.
-- Secondary: professionals reviewing recorded talks, webinars, and training sessions.
+- **Primary: students** reviewing online/recorded lectures for study, revision, or
+  catch-up after a missed class — and cramming the key points before exams.
+- **Secondary: educators / course creators** who want quick summaries of their own
+  recorded sessions to share or repurpose as study notes.
 
 ## Core workflow (the verified operation)
 
