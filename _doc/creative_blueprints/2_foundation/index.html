@@ -1,0 +1,33 @@
+<style>
+  .mode-landscape .sl-found { flex-direction: row; }
+  .mode-portrait .sl-found { flex-direction: column; }
+  .mode-landscape .sl-side { width: 34%; }
+  .mode-portrait .sl-side { width: 100%; min-height: 30%; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-found flex w-full h-full">
+    <div class="flex flex-col justify-center flex-1 p-12 gap-8">
+      <span class="text-xs font-semibold tracking-widest uppercase" style="color:#4F46E5">The Foundation</span>
+      <div class="rounded-2xl border border-slate-200 p-7">
+        <h2 class="text-lg font-bold text-slate-900">The Problem</h2>
+        <p class="mt-3 text-slate-600 leading-relaxed">
+          A 60–90 minute lecture hides its value in time. Re-watching the whole thing
+          to find the few minutes that matter is slow and discouraging — so the notes
+          never get made and the details slip.
+        </p>
+      </div>
+      <div class="rounded-2xl p-7" style="background:#4F46E5">
+        <h2 class="text-lg font-bold text-white">The Solution</h2>
+        <p class="mt-3 leading-relaxed" style="color:#E0E7FF">
+          Upload the recording; get back a structured summary — key points, key terms,
+          and action items. Not a transcript dump: signal over volume, delivered fast.
+        </p>
+      </div>
+    </div>
+    <div class="sl-side relative overflow-hidden">
+      <img class="absolute inset-0 w-full h-full object-cover"
+        src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=student%20at%20a%20desk%20reviewing%20a%20concise%20lecture%20summary%20on%20a%20laptop%2C%20warm%20focused%20study%20atmosphere%2C%20indigo%20accent%2C%20premium%20editorial"
+        alt="Reviewing a concise summary" />
+    </div>
+  </div>
+</section>
