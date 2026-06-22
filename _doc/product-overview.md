@@ -1,4 +1,4 @@
-# Product Overview — LectureLens
+# Product Overview — Recap
 
 > Single source of truth for the product. Authored at onboarding from the user's
 > initial idea; details marked _(assumption)_ are provisional and will be confirmed
