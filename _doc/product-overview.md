@@ -33,19 +33,19 @@ likely to be on the test), not a transcript dump.
 
 ## Core workflow (the verified operation)
 
-1. User provides a lecture video (upload or link).
-2. App extracts/transcribes the spoken content.
-3. App produces a structured summary: key points, key terms/definitions, and
-   action items / takeaways.
+1. User pastes a **YouTube lecture link**.
+2. App pulls/transcribes the spoken content from the video.
+3. App produces a structured, student-focused summary: key points, key
+   terms/definitions, and the concepts most likely to appear on a test.
 4. User reads, copies, or exports the summary.
 
-The **verified operation** is a **lecture summarized** — one recording turned into a
-delivered summary in the deployed app.
+The **verified operation** is a **lecture summarized** — one YouTube lecture turned
+into a delivered summary in the deployed app.
 
 ## Scope (MVP intent)
 
-- In: video upload/link, transcription, AI-generated structured summary, basic
-  readable output.
+- In: YouTube link input, transcription, AI-generated student-focused structured
+  summary (key points, definitions, test-likely concepts), basic readable output.
 - Likely-next: export/share, summary length/format controls, searchable library of
   past summaries, chapter/timestamp markers.
 - Out (for now): live/real-time lecture capture, multi-language guarantees,
