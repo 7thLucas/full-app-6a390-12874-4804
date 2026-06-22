@@ -44,6 +44,8 @@ export default {
         border: "var(--border)",
         input: "var(--input)",
         ring: "var(--ring)",
+        test: "var(--test-accent)",
+        success: "var(--success-accent)",
         chart: {
           "1": "var(--chart-1)",
           "2": "var(--chart-2)",

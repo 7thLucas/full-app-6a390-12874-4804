@@ -63,68 +63,106 @@ export type TDefaultConfigurableData = {
   appName: string;
   logoUrl: string;
   brandColor: TBrandColor;
+  // Home / hero copy
+  heroEyebrow?: string;
+  heroHeadline: string;
+  heroSubheadline: string;
+  inputPlaceholder: string;
+  summarizeButtonLabel: string;
+  supportingNote?: string;
+  // Loading state copy
+  loadingTitle: string;
+  loadingSubtitle: string;
+  loadingStages?: string[];
+  // Summary section labels
+  keyPointsLabel: string;
+  definitionsLabel: string;
+  testLikelyLabel: string;
+  footerText?: string;
+  // Semantic accents
+  testAccentColor: string;
+  successAccentColor: string;
   font: TFont;
-  // Mirror new schema fields here. Example:
-  //   maxItemsPerPage?: number;
-  //   enableNotifications?: boolean;
-  //   featuredCategories?: string[];
 };
 
 export const defaultConfigurablesData: TDefaultConfigurableData = {
-  appName: "My App",
+  appName: "Recap",
   logoUrl: "",
   brandColor: {
-    // Base
-    background:        "#ffffff",
-    foreground:        "#09090b",
-    // Card
+    // Base — clean near-white canvas, deep slate text
+    background:        "#fafaf9",
+    foreground:        "#1c1c21",
+    // Card — crisp white surfaces lift off the warm canvas
     card:              "#ffffff",
-    cardForeground:    "#09090b",
+    cardForeground:    "#1c1c21",
     // Popover
     popover:           "#ffffff",
-    popoverForeground: "#09090b",
-    // Primary
-    primary:           "#2563eb",
+    popoverForeground: "#1c1c21",
+    // Primary — academic indigo
+    primary:           "#4f46e5",
     primaryForeground: "#ffffff",
-    // Secondary
-    secondary:           "#f4f4f5",
-    secondaryForeground: "#18181b",
-    // Muted
-    muted:           "#f4f4f5",
-    mutedForeground: "#71717a",
-    // Accent
-    accent:           "#f4f4f5",
-    accentForeground: "#18181b",
+    // Secondary — soft warm gray surface
+    secondary:           "#f1f0ef",
+    secondaryForeground: "#1c1c21",
+    // Muted — secondary text + quiet fills
+    muted:           "#f1f0ef",
+    mutedForeground: "#6b7280",
+    // Accent — gentle indigo wash
+    accent:           "#eef2ff",
+    accentForeground: "#4338ca",
     // Destructive
-    destructive:           "#ef4444",
-    destructiveForeground: "#fafafa",
+    destructive:           "#dc2626",
+    destructiveForeground: "#ffffff",
     // Border / Input / Ring
-    border: "#e4e4e7",
-    input:  "#e4e4e7",
-    ring:   "#2563eb",
+    border: "#e5e7eb",
+    input:  "#e5e7eb",
+    ring:   "#4f46e5",
     // Charts
-    chart1: "#f97316",
+    chart1: "#4f46e5",
     chart2: "#0d9488",
-    chart3: "#1e3a5f",
-    chart4: "#d4a017",
-    chart5: "#ea580c",
+    chart3: "#f59e0b",
+    chart4: "#6366f1",
+    chart5: "#0ea5e9",
     // Navbar
-    navbarBackground: "#ffffff",
+    navbarBackground: "#fafaf9",
     // Sidebar
-    sidebarBackground:        "#fafafa",
-    sidebarForeground:        "#3f3f46",
-    sidebarPrimary:           "#2563eb",
+    sidebarBackground:        "#ffffff",
+    sidebarForeground:        "#1c1c21",
+    sidebarPrimary:           "#4f46e5",
     sidebarPrimaryForeground: "#ffffff",
-    sidebarAccent:            "#f4f4f5",
-    sidebarAccentForeground:  "#18181b",
-    sidebarBorder:            "#e4e4e7",
-    sidebarRing:              "#2563eb",
+    sidebarAccent:            "#eef2ff",
+    sidebarAccentForeground:  "#4338ca",
+    sidebarBorder:            "#e5e7eb",
+    sidebarRing:              "#4f46e5",
   },
+  // Home / hero copy
+  heroEyebrow: "Study smarter, not longer",
+  heroHeadline: "Turn any lecture into a study-ready summary",
+  heroSubheadline:
+    "Paste a YouTube lecture link and get the key points, definitions, and what's most likely on the test — in about the time it takes to grab a coffee.",
+  inputPlaceholder: "Paste a YouTube lecture link",
+  summarizeButtonLabel: "Summarize",
+  supportingNote: "No sign-up needed. Works with public YouTube lectures.",
+  // Loading state copy
+  loadingTitle: "Working on it",
+  loadingSubtitle:
+    "This usually takes a couple of minutes. Hang tight — we're reading the lecture so you don't have to.",
+  loadingStages: [
+    "Fetching the lecture",
+    "Reading the transcript",
+    "Pulling out the key points",
+    "Polishing your summary",
+  ],
+  // Summary section labels
+  keyPointsLabel: "Key Points",
+  definitionsLabel: "Key Terms & Definitions",
+  testLikelyLabel: "Likely on the Test",
+  footerText: "Recap — paste a link, get a study summary.",
+  // Semantic accents
+  testAccentColor: "#b45309",
+  successAccentColor: "#15803d",
   font: {
     headingFont: "Plus Jakarta Sans",
     textFont: "Inter",
   },
-  // ─────────────────────────────────────────────────────────────────────
-  // Add new field defaults here. See RULES.md §5 for per-type shape.
-  // ─────────────────────────────────────────────────────────────────────
 };

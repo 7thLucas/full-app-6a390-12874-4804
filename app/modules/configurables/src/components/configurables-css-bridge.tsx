@@ -91,6 +91,21 @@ export function ConfigurablesCSSBridge() {
     }
   }, [config?.brandColor]);
 
+  // ── Semantic accents (test-likely callouts + success) ──────────────────────
+  useEffect(() => {
+    if (typeof document === "undefined") return;
+    const root = document.documentElement;
+    const isValidColor = (v: unknown): v is string =>
+      typeof v === "string" && v.length > 0;
+
+    if (isValidColor(config?.testAccentColor)) {
+      root.style.setProperty("--test-accent", config.testAccentColor);
+    }
+    if (isValidColor(config?.successAccentColor)) {
+      root.style.setProperty("--success-accent", config.successAccentColor);
+    }
+  }, [config?.testAccentColor, config?.successAccentColor]);
+
 
   // ── Typography ────────────────────────────────────────────────────────────
   useEffect(() => {
